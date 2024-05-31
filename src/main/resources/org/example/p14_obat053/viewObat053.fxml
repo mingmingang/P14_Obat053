@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="456.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.p14_obat053.ViewObatController053">
+   <children>
+      <TableView fx:id="tableObat" layoutX="97.0" layoutY="118.0" prefHeight="275.0" prefWidth="680.0">
+         <columns>
+            <TableColumn fx:id="kodeObat" prefWidth="75.0" text="Kode Obat" />
+            <TableColumn fx:id="namaObat" prefWidth="75.0" text="Nama Obat" />
+            <TableColumn fx:id="merkObat" prefWidth="75.0" text="Merk" />
+            <TableColumn fx:id="kemasanObat" prefWidth="75.0" text="Kemasan" />
+            <TableColumn fx:id="efekObat" prefWidth="75.0" text="Efek" />
+            <TableColumn fx:id="hrgBeliObat" prefWidth="75.0" text="Harga Beli" />
+            <TableColumn fx:id="hrgJualObat" prefWidth="75.0" text="Harga Jual" />
+            <TableColumn fx:id="kadaluarsaObat" prefWidth="75.0" text="Kadaluarsa" />
+            <TableColumn fx:id="stockObat" prefWidth="75.0" text="Stock" />
+         </columns>
+      </TableView>
+      <Label layoutX="337.0" layoutY="41.0" text="View Data Obat">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
